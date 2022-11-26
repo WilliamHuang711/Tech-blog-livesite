@@ -1,5 +1,5 @@
 # Tech-Blog Application
-    This application allows people to publish their blog posts and  also comment on other developers' posts.
+    This application allows people to publish their blog posts and also comment on other developers' posts.
 
 ## Installation
     Need to install the following packages;
@@ -12,4 +12,4 @@
     connect-session-sequelize
 
 ## Live Site
-    
+    https://desolate-waters-24720.herokuapp.com/
