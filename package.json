@@ -4,9 +4,12 @@
   "description": "This application allows people to publish their blog posts and  also comment on other developers' posts.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
+    "dev": "react-scripts start",
+"start": "serve -s build",
+"build": "react-scripts build",
+"test": "react-scripts test --env=jsdom",
+"eject": "react-scripts eject",
+"heroku-postbuild": "npm run build"
   },
   "author": "",
   "license": "ISC",
@@ -25,10 +28,10 @@
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.19",
     "sequelize": "^6.25.8",
+    "serve": "^14.1.2",
     "utils": "^0.3.1",
     "uuid": "^9.0.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WilliamHuang711/Tech-blog-livesite.git"
