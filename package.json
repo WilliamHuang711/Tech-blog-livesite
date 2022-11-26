@@ -4,12 +4,13 @@
   "description": "This application allows people to publish their blog posts and  also comment on other developers' posts.",
   "main": "server.js",
   "engines": {
-    "node": "16.18.0"
+    "node": "16.18.0",
+    "npm": "8.19.2"
     },
   "scripts": {
-    "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
+    "start":"node server.js",
+    "watch":"nodemon server.js",
+    "seed":"node seeds/index.js"
   },
   "author": "",
   "license": "ISC",
