@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This application allows people to publish their blog posts and  also comment on other developers' posts.",
   "main": "server.js",
+  "engines": {
+    "node": "16.18.0"
+    },
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon server.js",
